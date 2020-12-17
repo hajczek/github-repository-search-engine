@@ -4,7 +4,7 @@
         <ul class="list content__list">  
             <li><b>Name:</b> {{this.repository.name}}</li>
             <li v-if="this.repository.owner"><b>Owner:</b> {{this.repository.owner.login}}</li>
-            <li><b>URL:</b> <a class="link" :href="`${this.repository.url}`" target="_blank">{{this.repository.url}}</a></li>
+            <li class="content__list--short"><b>URL:</b> <a class="link" :href="`${this.repository.url}`" target="_blank">{{this.repository.url}}</a></li>
             <li v-if="this.repository"><b>CreatedAt:</b> {{this.repository.createdAt}}</li>
             <li><b>Description:</b> {{this.repository.description}}</li>
             <li><b>Is fork:</b> {{this.repository.isFork}}, Fork Count: {{this.repository.forkCount}}</li>
