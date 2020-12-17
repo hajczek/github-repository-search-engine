@@ -1,4 +1,4 @@
-# github repositories finder
+# github repositories search engine
 
 ## Build Setup
 
