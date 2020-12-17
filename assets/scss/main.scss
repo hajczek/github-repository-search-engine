@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $body-bg-color;
+  color: #777;
+  font-size: 1rem;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "sans-serif";
+}
+
+.link {
+  color: $link-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+
+  &:focus {
+    color: $link-hover-color;
+  }
+}
+
+#__layout {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  min-height: 30vh;
+
+  .content__title {
+    margin-bottom: 1rem;
+  }
+
+  .content__text {
+    line-height: 1.6;
+  }
+
+  .list {
+    list-style-type: none;
+    margin-top: 1rem;
+  }
+}
