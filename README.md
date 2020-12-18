@@ -6,6 +6,10 @@
 # install dependencies
 $ npm install
 
+# put in app Github api token
+In file 'plugins/apollo-config.js' put your Github api token in place <your-api-token-here>
+[How to generate github api token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
