@@ -3,7 +3,7 @@
 ## Build Setup
 
 ### Put in app Github api token
-In file 'plugins/apollo-config.js' put your Github api token in place '<your-api-token-here>'
+In file 'plugins/apollo-config.js' put your Github api token in place 'your-api-token-here'
 [How to generate github api token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
 
 ```bash
